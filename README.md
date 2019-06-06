@@ -1,6 +1,6 @@
 
 ## 准备工作
-- node.js环境（npm包管理器）
+- node.js环境
 - vue-cli 脚手架构建工具
 - cnpm  npm的淘宝镜像
 
@@ -9,13 +9,13 @@
    
     # 安装依赖
     npm install
-    //or # 建议不要用cnpm  安装有各种诡异的bug 可以通过如下操作解决npm速度慢的问题
+    // 或者
     npm install --registry=https://registry.npm.taobao.org
 
     # 本地开发 开启服务
     npm run dev
 ```
-浏览器访问 http://localhost:9527
+浏览器访问 http://localhost:9531
 
 ## 发布
 ```bash
