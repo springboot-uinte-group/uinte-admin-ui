@@ -24,7 +24,6 @@ module.exports = {
         bundleAnalyzerReport: process.env.npm_config_report
     },
     dev: {
-
         env: require('./dev.env'),
         port: 9531,
         autoOpenBrowser: true,
@@ -45,5 +44,5 @@ module.exports = {
         // just be aware of this issue when enabling this option.
         cssSourceMap: false
     }
-    
+
 }
