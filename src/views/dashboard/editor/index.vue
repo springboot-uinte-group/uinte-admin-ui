@@ -81,11 +81,11 @@
 	  data() {
     return {
 	      statisticsData: {
-	        article_count: 1024,
+	        article_count: 2029,
 	        comment_count: 102400,
 	        latest_article: [],
 	        month_article_count: 28,
-	        pageviews_count: 1024
+	        pageviews_count: 1022
       }
     }
   },
