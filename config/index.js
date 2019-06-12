@@ -32,7 +32,7 @@ module.exports = {
         assetsPublicPath: '/',
         proxyTable: {
           '/api':{
-            target:'http://47.96.85.51:9002',
+            target:'http://www.uinte.com:9002',
             pathRewrite:{
               '^/api': '/'
             }
