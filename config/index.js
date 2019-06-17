@@ -32,6 +32,7 @@ module.exports = {
         proxyTable: {
           '/api':{
             target:'http://www.uinte.com:9002',
+            // target:'http://127.0.0.1:9002',
             pathRewrite:{
               '^/api': '/'
             }

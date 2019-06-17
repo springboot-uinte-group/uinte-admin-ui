@@ -56,8 +56,8 @@
       <el-form-item label="描述"   prop="description">
           <el-input v-model="form.description" :disabled="formEdit" placeholder="请输入描述"></el-input>
       </el-form-item>
-       <el-form-item label="前端组件"   prop="attr1">
-          <el-input v-model="form.attr1" :disabled="formEdit" placeholder="请输入描述"></el-input>
+       <el-form-item label="前端组件"   prop="uiComponent">
+          <el-input v-model="form.uiComponent" :disabled="formEdit" placeholder="请输入描述"></el-input>
       </el-form-item>
        <el-form-item v-if="formStatus == 'update'">
         <el-button type="primary" @click="update">更新</el-button>
@@ -118,7 +118,7 @@ export default {
         path: undefined,
         enabled: undefined,
         type: undefined,
-        attr1: undefined
+        uiComponent: undefined
       },
       currentId: -1,
       menuManager_btn_add: false,

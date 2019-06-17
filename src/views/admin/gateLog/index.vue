@@ -5,7 +5,7 @@
       <el-button class="filter-item" type="primary" v-waves icon="search" @click="handleFilter">搜索</el-button>
     </div>
     <el-table :key='tableKey' :data="list" v-loading.body="listLoading" border fit highlight-current-row style="width: 100%">
-      <el-table-column align="center" label="id" width="65">
+      <el-table-column align="center" label="标识" width="305">
         <template scope="scope">
           <span>{{scope.row.id}}</span>
 </template>
