@@ -16,13 +16,13 @@
 </template>
 
 </el-table-column>
-<el-table-column width="200px" align="center" label="操作"><template scope="scope">
+<el-table-column width="120px" align="center" label="操作"><template scope="scope">
   <span>
     {{scope.row.opt}}</span>
 </template>
 
 </el-table-column>
-<el-table-column width="200px" align="center" label="资源路径"><template scope="scope">
+<el-table-column width="300px" align="center" label="资源路径"><template scope="scope">
   <span>
     {{scope.row.uri}}</span>
 </template>

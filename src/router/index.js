@@ -121,6 +121,19 @@ export const asyncRouterMap = [{
   }]
 },
 {
+    path: '/ruleEngineManagement',
+    component: Layout,
+    name: '规则引擎管理',
+    icon: 'setting',
+    authority: 'ruleEngineManagement',
+    children: [{
+      path: 'addManager',
+      component: _import('rules/addManager/index'),
+      name: '规则管理',
+      authority: 'addManager'
+    }]
+},
+{
   path: '/monitorManager',
   component: Layout,
   name: '监控模块管理',
