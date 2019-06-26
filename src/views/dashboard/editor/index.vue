@@ -1,29 +1,6 @@
 <template>
 	<div class="dashboard-editor-container">
-		<a href="#" target="_blank" class="github-corner" aria-label="View source on Github">
-
-		</a>
-		<el-row class="btn-group">
-			<el-col :span="4" class='text-center'>
-				<router-link class="pan-btn blue-btn" to="/components/index">Components</router-link>
-			</el-col>
-			<el-col :span="4" class='text-center'>
-				<router-link class="pan-btn light-blue-btn" to="/charts/index">Charts</router-link>
-			</el-col>
-			<el-col :span="4" class='text-center'>
-				<router-link class="pan-btn pink-btn" to="/excel/download">Excel</router-link>
-			</el-col>
-			<el-col :span="4" class='text-center'>
-				<router-link class="pan-btn green-btn" to="/example/table/table">Table</router-link>
-			</el-col>
-			<el-col :span="4" class='text-center'>
-				<router-link class="pan-btn tiffany-btn" to="/example/form/edit">Form</router-link>
-			</el-col>
-			<el-col :span="4" class='text-center'>
-				<router-link class="pan-btn yellow-btn" to="/theme/index">Theme</router-link>
-			</el-col>
-		</el-row>
-
+		<a href="#" target="_blank" class="github-corner" aria-label="View source on Github"> </a>
 		<el-row>
 			<el-col :span="6">
 				<el-card class="box-card">
@@ -41,7 +18,6 @@
 					<div class="info-item">
 						<countTo class="info-item-num" :startVal='0' :endVal='statisticsData.pageviews_count' :duration='3600'></countTo>
 						<span class="info-item-text">浏览量</span>
-						
 					</div>
 				</el-card>
 			</el-col>
@@ -59,6 +35,7 @@
 			<el-col :span="15">
 				<line-chart></line-chart>
 			</el-col>
+
 			<el-col :span="9">
 				<todo-list></todo-list>
 			</el-col>
