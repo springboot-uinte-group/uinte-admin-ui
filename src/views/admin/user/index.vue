@@ -27,7 +27,7 @@
       </el-table-column>
       <el-table-column width="110" align="center" label="性别">
         <template scope="scope">
-          <span>{{scope.row.sex}}</span>
+          <span>{{scope.row.gender}}</span>
         </template>
       </el-table-column>
       <el-table-column width="180" align="center" label="最后时间">
@@ -72,7 +72,7 @@
           <el-input type="password" v-model="form.password"></el-input>
         </el-form-item>
         <el-form-item label="性别">
-          <el-select class="filter-item" v-model="form.sex" placeholder="请选择">
+          <el-select class="filter-item" v-model="form.gender" placeholder="请选择">
             <el-option v-for="item in  sexOptions" :key="item" :label="item" :value="item"></el-option>
           </el-select>
         </el-form-item>
@@ -160,7 +160,7 @@
           limit: 20,
           name: undefined
         },
-        sexOptions: ['男', '女'],
+        sexOptions: ['男', '女', '保密'],
         dialogFormVisible: false,
         dialogStatus: '',
         userManager_btn_edit: false,
