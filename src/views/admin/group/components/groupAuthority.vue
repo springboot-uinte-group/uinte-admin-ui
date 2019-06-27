@@ -34,7 +34,7 @@
         {{scope.row.uri}}</span>
 </template>
 </el-table-column>
-    <el-table-column width="220px" align="center" label="资源请求类型"><template scope="scope">
+    <el-table-column width="220px" align="center" label="资源方法类型"><template scope="scope">
     <span>
         {{scope.row.method}}</span>
 </template>

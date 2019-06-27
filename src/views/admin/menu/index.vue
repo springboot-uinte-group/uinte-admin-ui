@@ -46,7 +46,7 @@
           <el-input v-model="form.href" :disabled="formEdit" placeholder="请输入资源路径"></el-input>
       </el-form-item>
       <el-form-item label="类型" prop="type">
-         <el-select class="filter-item" v-model="form.type"  :disabled="formEdit"  placeholder="请输入资源请求类型">
+         <el-select class="filter-item" v-model="form.type"  :disabled="formEdit"  placeholder="请输入资源方法类型">
           <el-option v-for="item in  typeOptions" :key="item" :label="item" :value="item"> </el-option>
         </el-select>
       </el-form-item>
